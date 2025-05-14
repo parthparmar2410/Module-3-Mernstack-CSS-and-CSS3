@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .navbar{
+      background-color: black;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .navbar a{
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      background-color: antiquewhite;
+      color: brown;
+      border: 2px hidden red;
+      border-radius: 5px;
+    }
+    .content{
+      display: flex;
+      flex-direction: row;
+      padding: 2rem;
+      gap: 200px;
+      margin-left: 75px;
+    }
+    .column {
+      flex: 1;
+      background-color: #f4f4f4;
+      padding: 50px;
+      border-radius: 5px;   
+    }
+    .footer{
+      background-color: black;
+      color: wheat;
+      text-align: center;
+      padding: 10px;
+    }
+    .navbar a:hover{
+      background-color: aqua;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <h1>My Website</h1>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main class="content">
+    <div class="column">
+      <h3>HELLO GUSESS</h3>
+      <p>this is my first website in HTML and CSS</p>
+    </div>
+    <div class="column">
+      <h3>HELLO GUSESS</h3>
+      <p>this is my first website in HTML and CSS</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+        .grid{
+            display:grid;
+            grid-gap: 15px;
+            grid-template-columns: repeat(3, 1fr);
+            width: 960px;
+            margin-left: 270px;
+        }
+        .productcard{
+            height: 300px;
+            width: 300px;
+            padding: 40px;
+            background-color: antiquewhite;
+            border: 2px hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            
+        }
+        .productcard:hover{
+            border: 2px solid gray;
+        }
+        .pimage{
+            height: 150px;
+            width: 150px;
+            cursor: pointer;
+            align-items: center;
+            margin-left: 35px;
+        }
+        .protitle{
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(74, 46, 46);
+            text-align: center;
+        }
+        .proprice{
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="productcard">
+        <img src="https://m.media-amazon.com/images/I/411uFYa0VhL._SX300_SY300_QL70_FMwebp_.jpg" class="pimage" alt="">
+        <div class="proinfo">
+        <h3 class="protitle">iQOO Z10x 5G</h3>
+        <p class="proprice">₹14,999</p>
+        </div>
+        </div>
+
+        <div class="productcard">
+            <img src="https://m.media-amazon.com/images/I/41k6xQe1l4L._SX300_SY300_QL70_FMwebp_.jpg" class="pimage" alt="">
+            <div class="proinfo">
+            <h3 class="protitle">Samsung Galaxy M56 5G</h3>
+            <p class="proprice">₹27,999</p>
+            </div>
+            </div>
+
+            <div class="productcard">
+                <img src="https://m.media-amazon.com/images/I/712-8ksgYRL._SX679_.jpg" class="pimage" alt="">
+                <div class="proinfo">
+                <h3 class="protitle">realme NARZO 80 Pro 5G </h3>
+                <p class="proprice">₹19,998</p>
+                </div>
+                </div>
+
+                <div class="productcard">
+                    <img src="https://m.media-amazon.com/images/I/41wCgprYAPL._SX300_SY300_QL70_FMwebp_.jpg" class="pimage" alt="">
+                    <div class="proinfo">
+                    <h3 class="protitle">iQOO Z10x 5G </h3>
+                    <p class="proprice">₹13,499</p>
+                    </div>
+                    </div>
+
+                    <div class="productcard">
+                        <img src="https://m.media-amazon.com/images/I/41NMZh-YSTL._SX300_SY300_QL70_FMwebp_.jpg" class="pimage" alt="">
+                        <div class="proinfo">
+                        <h3 class="protitle">Samsung Galaxy M16 5G</h3>
+                        <p class="proprice"> ₹12,998</p>
+                        </div>
+                        </div>
+
+                        <div class="productcard">
+                            <img src="https://m.media-amazon.com/images/I/41tS3gyOW1L._SX300_SY300_QL70_FMwebp_.jpg" class="pimage" alt="">
+                            <div class="proinfo">
+                            <h3 class="protitle">iQOO Z9s 5G</h3>
+                            <p class="proprice"> ₹18,999</p>
+                            </div>
+                            </div>
+
+                            <div class="productcard">
+                                <img src="https://m.media-amazon.com/images/I/51oXoPL2tpL._SX300_SY300_QL70_FMwebp_.jpg" class="pimage" alt="">
+                                <div class="proinfo">
+                                <h3 class="protitle">Samsung Galaxy M35 5G</h3>
+                                <p class="proprice">₹13,999</p>
+                                </div>
+                                </div>
+
+                                <div class="productcard">
+                                    <img src="https://m.media-amazon.com/images/I/71PjpS59XLL._SX679_.jpg" class="pimage" alt="">
+                                    <div class="proinfo">
+                                    <h3 class="protitle">Apple iPhone 15 Plus </h3>
+                                    <p class="proprice"> ₹72,900</p>
+                                    </div>
+                                    </div>
+
+                                    <div class="productcard">
+                                        <img src="https://m.media-amazon.com/images/I/41FtevXmJKL._SX300_SY300_QL70_FMwebp_.jpg" class="pimage" alt="">
+                                        <div class="proinfo">
+                                        <h3 class="protitle">Samsung Galaxy A15 5G</h3>
+                                        <p class="proprice">₹15,799</p>
+                                        </div>
+                                        </div>
+</div>
+</body>
+</html>

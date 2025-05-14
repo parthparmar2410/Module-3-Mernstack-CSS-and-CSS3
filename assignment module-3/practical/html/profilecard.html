@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            background-color: blanchedalmond;
+            font-family: Arial, sans-serif;
+        }
+        .card{
+            width: 300px;
+            background-color: #fff;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-sizing: content-box;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 3px solid #007BFF;
+            padding: 5px;
+            box-sizing: content-box; 
+            margin-bottom: 15px;
+        }
+        .name{
+            font-size: 1.5em;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        .bio{
+            font-size: 0.95em;
+            color: #666;
+            margin-bottom: 20px;
+            padding: 0 10px;
+        }
+        .button{
+            padding: 10px 20px;
+            border: none;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover{
+            background-color: darkblue;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3>MY PROFILE</h3>
+        <img src="20250108_143210.jpg" alt="">
+        <div class="name">Parth Parmar</div>
+        <div class="bio">I am a passionate web developer with a strong interest in building responsive, user-friendly websites and web applications. I specialize in front-end technologies like HTML, CSS, and JavaScript, and I enjoy turning ideas into visually appealing and functional digital experiences. I’m always eager to learn new tools and stay updated with the latest trends in web development.</div>
+        <button class="button">Follow</button>
+    </div>
+</body>
+</html>

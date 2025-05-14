@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minimalist Blog</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;500&display=swap');
+
+    :root {
+      --font-heading: 'Playfair Display', serif;
+      --font-body: 'Roboto', sans-serif;
+      --color-text: #1F2937; 
+      --color-subtext: #4B5563; 
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--color-text);
+      background: white;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-family: var(--font-heading);
+      font-size: 2.5rem;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--color-subtext);
+      margin-bottom: 2rem;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 1.125rem;
+      margin-bottom: 1.5rem;
+    }
+
+    @media (min-width: 640px) {
+      body {
+        padding: 3rem;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 1.75rem;
+      }
+
+      p {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <article class="container">
+    <h1>MY BLOG POST</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis molestiae ipsa vitae veritatis adipisci! Culpa aliquid commodi perspiciatis voluptatibus! Minus.</h2>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptas tenetur officiis delectus quia minima distinctio magnam sequi pariatur, voluptatum placeat laudantium accusantium ab consequuntur.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sapiente esse, commodi ea a enim facilis iure assumenda? Pariatur et ipsa labore repellat dolorem facere minima? Molestiae recusandae neque eum.
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, sequi. Fugit corporis nesciunt sit labore asperiores numquam, quaerat delectus aliquid, ut saepe vel ad reiciendis expedita consectetur minus, ab exercitationem!
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis libero quidem esse dolore minus natus accusamus iste odio. Voluptas, perferendis.
+    </p>
+  </article>
+</body>
+</html>
